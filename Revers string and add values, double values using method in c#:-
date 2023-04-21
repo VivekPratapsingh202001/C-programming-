@@ -1,0 +1,31 @@
+// revers string and add values, dubble values using menthod:-  
+/*class Demo1
+{
+	static void ReversAdd(int num)
+	{
+		int i=0,rev=0,adds=0;
+		//System.Console.Write("enter any no ");
+		//num= System.Convert.ToInt32(System.Console.ReadLine());
+		
+		while(num>i)
+		{
+			 rev=num%10;
+			 adds=rev+adds;
+			 
+			 System.Console.Write(rev );
+			 num=num/10;
+			
+		}	
+        	System.Console.WriteLine(" "+adds );
+			
+	}
+	static void Main(string []args)
+	
+	{
+		int num,dubble=0;
+	System.Console.Write("enter any no ");
+	num= System.Convert.ToInt32(System.Console.ReadLine());	
+	dubble=num*2;
+	System.Console.Write("dubble of value " +dubble +" ");
+	ReversAdd(num);
+	}
