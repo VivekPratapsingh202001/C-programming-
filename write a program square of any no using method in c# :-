@@ -1,0 +1,22 @@
+// write a program squre :-
+/*class Squre
+ {
+	 static void SqureNo(int size)
+	 {
+	 int squre=1;
+	 for(int i=0;i<size;i++)
+		 {
+		System.Console.Write("enter any{0} number ",i);
+		int num=System.Convert.ToInt32(System.Console.ReadLine());
+		 squre=squre*num;
+		 }
+	    System.Console.Write("squre of number"+squre);
+	 }
+	 static void Main(string []args)
+	 {
+		System.Console.Write("enter size of number ");
+		int size= System.Convert.ToInt32(System.Console.ReadLine()); 
+		SqureNo(size); 
+	 }
+ }*/
+ 
