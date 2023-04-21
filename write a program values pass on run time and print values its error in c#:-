@@ -1,0 +1,42 @@
+//write a program values pass on run time and print values its errer:-
+/*class JaggdArray
+{
+	static void Main(string []args)
+	{
+	System.Console.Write("enter zize of array");
+	int size= System.Convert.ToInt32(System.Console.ReadLine());
+    //System.Console.Write("enter zize of array");
+	//int size1= System.Convert.ToInt32(System.Console.ReadLine());
+	System.Console.WriteLine("enter given  values for arrray");
+	int[][] arr= new int[size][];//[size],[size1];
+	//int[][]arr = new int[][]{new int[]{10,20,30,40},new int[]{11,12,13,14,15,18},new int[]{78,58},new int[]{78,58,47},new int[]{28,68,37,98}};
+		int a=0,b;
+		while(a<arr.GetLength(0))
+		{
+			b=0;
+			while(b<arr[a].GetLength(0))
+			{
+				System.Console.Write("["+a+"]["+b+"]:");
+				arr[a][b]=System.Convert.ToInt32(System.Console.ReadLine());
+				b++;
+			}
+			System.Console.WriteLine();
+			a++;
+		}
+		
+		int i=0,j;
+		while(i<arr.Length)
+		{
+			j=0;
+		while(j<arr[i].Length)
+		{
+			System.Console.Write(" "+arr[i][j]);
+			j++;
+			
+		}
+           System.Console.WriteLine();
+			i++;
+		}
+		
+	}
+}*/
