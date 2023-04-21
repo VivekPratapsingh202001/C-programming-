@@ -1,0 +1,33 @@
+//write a program in 2d array inter values and print on run time-
+/*class Demo
+{
+	static void Main(string []args)
+	{
+	System.Console.Write("enter any base size of array ");
+	int size=System.Convert.ToInt32(System.Console.ReadLine());
+	System.Console.Write("enter any sub size of array ");
+	int size1=System.Convert.ToInt32(System.Console.ReadLine());
+	int[,] arr=new int[size,size1];
+	for(int i=0;i<arr.GetLength(0);i++)
+	{
+		for(int j=0;j<arr.GetLength(1);j++)
+		{
+		System.Console.Write("["+i+"]["+j+"]:");
+		arr[i,j]=System.Convert.ToInt32(System.Console.ReadLine());
+		}
+		System.Console.WriteLine(" ");
+	}
+	int k=0;
+	int l;
+	while(k<arr.GetLength(0))
+	{
+	l=0;
+	while(l<arr.GetLength(1));
+	System.Console.WriteLine(""+arr[k,l]);
+		l++;
+	}
+	System.Console.WriteLine(" ");
+	k++;
+	
+	}
+}*/
