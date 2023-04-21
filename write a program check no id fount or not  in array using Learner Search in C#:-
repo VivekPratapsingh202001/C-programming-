@@ -1,0 +1,27 @@
+//write a program check no id fount or not  in array using Learner Search:-
+/*class Array
+{
+	static void Main(string [] args)
+	{
+		int[] arr={111,121,123,104,105};
+		bool flag =false;
+		System.Console.WriteLine("enter any values ");
+		int search =System.Convert.ToInt32(System.Console.ReadLine());
+		for(int i=0;i<arr.Length;i++)
+		{
+			//System.Console.Write(arr[i]+" ");
+			if(arr[i]==search)
+			{
+				
+				flag= true;
+				System.Console.WriteLine("number is found ");
+				break;
+			}
+		}
+			if(flag==false)
+			{
+				System.Console.WriteLine("number is not found");
+				
+			}
+	}
+}*/
