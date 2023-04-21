@@ -1,0 +1,23 @@
+//write a enable print number encrement program:- 
+/*class pattten 
+{
+	static void Main(string []args)
+	{
+		System.Console.Write("Enter any number for patten ");
+		int num=System.Convert.ToInt32(System.Console.ReadLine());
+		int i=0;
+		int j;
+		while(i<num)
+		{
+			j=i;
+			while(j<num)
+			{
+				System.Console.Write(1+j);
+				
+				j++;
+			}
+			i++;
+			System.Console.WriteLine(" ");
+		}
+	}
+}*/
