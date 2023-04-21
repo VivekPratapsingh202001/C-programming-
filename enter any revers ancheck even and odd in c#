@@ -1,0 +1,35 @@
+// write aprogram enter any revers and check even and odd
+/*class Demo
+{
+	static void Main(string []args)
+	{
+		int n,i=1,rev=0,count=0;
+		//dubble=1;
+		
+		System.Console.Write("enter any  no ");
+		n = System.Convert.ToInt32(System.Console.ReadLine());
+		//dubble=n*2;
+		//System.Console.Write("dubble of value " +dubble +" ");
+		System.Console.Write("revers of value ");
+		for(i=0; i<=n; i++)
+		{
+			//dubble=n*2;
+			count=count+i;
+			rev=(n%10);
+			System.Console.Write(+rev );
+			n=n/10;
+			
+			}
+			//System.Console.Write(" "+ "even no" );
+			if(rev%2==0)
+			{
+				System.Console.WriteLine(" "+ "even no" );
+			}
+			else
+			{
+				System.Console.WriteLine(" " +"odd no" );
+		}
+		//dubble=n*2;
+		//System.Console.Write(+dubble);
+	}
+}*/
