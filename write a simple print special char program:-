@@ -1,0 +1,25 @@
+// write a simple print special char program:- 
+/*class pattten 
+{
+	static void Main(string []args)
+	{
+		System.Console.Write("Enter any number for patten ");
+		int num=System.Convert.ToInt32(System.Console.ReadLine());
+		int i=0;
+		int j;
+		while(i<num)
+		{
+			
+			j=0;
+			while(j<num)
+			{
+				System.Console.Write("&");
+				
+				j++;
+			}
+			i++;
+			System.Console.WriteLine(" ");
+		}
+		
+	}
+}*/
