@@ -1,0 +1,35 @@
+// minimum and maxmium program in using method()
+/* class minmax
+{
+	static void MinMaxNo(int size)
+	{    
+	    
+		int i=1,min=0,max=0;
+		while(i<=size)
+		{
+		System.Console.Write("enter any {0}st no ",i);
+		int num=System.Convert.ToInt32(System.Console.ReadLine());
+		if(i==1)
+		{
+			min=num;
+		}
+		else if(num<min)
+		{
+			min=num;
+		}
+		else if(num>min)
+		{
+			max=num;
+		}
+		i++;
+		}
+		System.Console.WriteLine("Minimum values " +min);
+		System.Console.WriteLine("maxmium values " +max);
+	}
+	static void Main()
+	{
+		System.Console.Write("enter size of number ");
+		int size= System.Convert.ToInt32(System.Console.ReadLine());
+		MinMaxNo(size);
+	}
+}*/
