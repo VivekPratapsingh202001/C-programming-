@@ -1,0 +1,39 @@
+//write a array program in search even odd ,count squre and que:-
+/*class demo
+{
+	static void Main(string [] args)
+	{
+		int i=0,size,even=0,odd=0,count=0,sqr=1,sqr1=1;
+        System.Console.Write("Enter size of number ");
+		size=System.Convert.ToInt32(System.Console.ReadLine());
+		while(i<size)
+		{
+		System.Console.Write("enter {0}st any no ",i);
+		int num= System.Convert.ToInt32(System.Console.ReadLine());
+		if(num%2==0)
+		{
+			even++;
+			
+		}
+		else
+		{
+			odd++;
+			
+		}
+		
+		i++;
+		
+		}
+		count=even+odd;
+		sqr=even*even;
+		sqr1=odd*odd;
+		System.Console.WriteLine("even no"+even);
+		System.Console.WriteLine("odd no"+odd);
+		System.Console.WriteLine("count"+count);
+		System.Console.WriteLine("squre of even "+sqr);
+		System.Console.WriteLine("squre of odd "+sqr1);
+		
+		System.Console.WriteLine(" "+even  +odd +count +sqr +sqr1);
+		
+	} 
+}*/	
