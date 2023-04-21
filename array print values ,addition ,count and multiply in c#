@@ -1,0 +1,30 @@
+/*class Demo
+{
+	static void Main(string [] args)
+	{
+		System.Console.WriteLine("enter size of array");
+		int size=System.Convert.ToInt32(System.Console.ReadLine());
+		int []arr=new int[size];
+		System.Console.WriteLine("enter any "+size +"th number");
+		int i,sum=0,count=0,mul=1;
+		for(i=0;i<size;i++)
+		{
+			arr[i]=System.Convert.ToInt32(System.Console.ReadLine());
+		}
+		System.Console.Write("element of array ");
+		
+		for(i=0;i<size;i++)
+		{
+			System.Console.Write(arr[i]+" ");
+			
+			sum=sum+arr[i];
+			mul=mul*arr[i];
+			count++;
+			
+		}
+		System.Console.Write("\nsum of element "+sum);
+		System.Console.Write("\ncount of element "+count);
+		System.Console.Write("\nmultiply of element "+mul);
+				
+	}
+}*/
