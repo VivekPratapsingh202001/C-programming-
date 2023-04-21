@@ -1,0 +1,109 @@
+using System;
+class JArray
+{
+    static void Main(String[] args)
+    {
+        Console.WriteLine("Enter any base Array Size");
+        int size = Convert.ToInt32(Console.ReadLine());
+        int[][] arr = new int[size][];
+        for (int i = 0; i < arr.Length; i++)
+        {
+            Console.Write($"enter any {i}st base Array size");
+            int sub = Convert.ToInt32(Console.ReadLine());
+
+            arr[i] = new int[sub];
+        }
+        for (int i = 0; i < arr.Length; i++)
+        {
+            for (int j = 0; j < arr[i].Length; j++)
+            {
+                Console.Write("[" + i + " ]" + "[" + j + "] :");
+                arr[i][j] = Convert.ToInt32(Console.ReadLine());
+
+            }
+            Console.WriteLine();
+        }
+        
+        for (int i = 0; i < arr.Length; i++)
+        {
+            for (int j = 0; j < arr[i].Length; j++)
+            {
+                Console.Write(" " + arr[i][j]);
+            }
+            Console.WriteLine("");
+            }
+            Console.WriteLine("1. totel add  " + "\n2. check even odd"+"\n3.check prime or non prime");
+            int num = Convert.ToInt32(Console.ReadLine());
+        switch (num)
+        {
+            case 1:
+                {
+                    int count = 0;
+                    for (int i = 0; i < arr.Length; i++)
+                    {
+                        for (int j = 0; j < arr[i].Length; j++)
+                        {
+                            //Console.Write(" " + arr[i][j]);
+                            count = arr[i][j] + count;
+                        }
+                                                
+                    }
+                    Console.Write("totel add row and coll = " + count);
+                    Console.WriteLine("");
+                    break;
+                }
+            case 2:
+                {
+                    int even = 0, odd = 0;
+                    for (int i = 0; i < arr.Length; i++)
+                    {
+                        for (int j = 0; j < arr[i].Length; j++)
+                        {
+                            if (arr[i][j] % 2 == 0)
+                            {
+                                even++;
+                            }
+                            else 
+                            {
+                                odd++;
+                            }
+                        }
+                    }
+                    Console.WriteLine("totel even no" + even);
+                    Console.WriteLine("totel odd no" + odd);
+                    break;
+                }
+            case 3:
+                {
+                    int prime = 0, notprime = 0;
+                    for (int i = 0; i < arr.Length; i++)
+                    {
+                        for (int j = 0; j < arr[i].Length; j++)
+                        {
+							bool flag=true;
+							for(int k=2;k<arr[i][j]/2;k++)
+							{
+                            if (arr[i][j] % k == 0)
+                            {
+                               notprime++; 
+							   flag=false;
+							   break;
+                            }
+                            
+                            }
+                            if (flag==true)
+								{
+								prime++;
+								}
+						
+                        }
+						
+                    }
+                    Console.WriteLine("totel prime no" + prime);
+					Console.WriteLine("totel not prime no" + notprime);
+                    break;
+                }
+
+        }
+    }
+}
