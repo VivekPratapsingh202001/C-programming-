@@ -1,0 +1,27 @@
+//write a program print run time size and values in 1D array:-
+/*class SingleArray
+{
+	static void Main(string []args)
+	{
+	System.Console.Write("enter size of array");
+    int size=System.Convert.ToInt32(System.Console.ReadLine());	
+	System.Console.WriteLine("enter values of array");
+	int[] arr=new int[size];
+	int g=0;
+	while(g<arr.Length)
+		{
+		arr[g] =System.Convert.ToInt32(System.Console.ReadLine());
+			g++;
+		}
+	
+	    int i=0;
+		while(i<arr.Length)
+		{
+		
+		System.Console.Write(" "+arr[i]);
+			i++;
+		}
+		
+		System.Console.WriteLine();
+	}
+}*/
