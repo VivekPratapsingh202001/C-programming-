@@ -1,0 +1,71 @@
+//Write a Jagged Array program check prime and non prime number using methoda() 
+/*class Mayank
+{
+    public static int even=0;
+    public static int odd =0;
+    
+    public int Ak(int base1,int sub)
+    {
+      int[,] arr = new int [base1,sub];
+      
+        
+        for(int i=0;i<arr.GetLength(0);i++)
+        {
+            for(int j=0;j<arr.GetLength(1);j++)
+            {
+              arr[i,j] = int.Parse(System.Console.ReadLine()); 
+            }System.Console.WriteLine("");
+        }
+        
+        
+        for(int i=0;i<arr.GetLength(0);i++)
+        {
+            for(int j=0;j<arr.GetLength(1);j++)
+            { 
+                System.Console.Write("  " + arr[i,j]); 
+                int count=0;
+                for(int k =1;k<=arr[i,j];k++)
+                {
+                    if(arr[i,j]%k==0)
+                    {
+                        count++;
+                    }
+                }
+                if(count==2)
+                {
+                    even++;
+                }
+                else
+                {
+                    odd++;
+                }
+                
+            }System.Console.WriteLine("");
+        } 
+        
+        return even;
+        return odd;
+    }
+}
+
+
+class Akshay
+{
+    public static void Main()
+    {
+        System.Console.Write("Enter the Base Array size :");
+        int base1 = int.Parse(System.Console.ReadLine());
+        
+        System.Console.Write("Enter the Sub Array size :");
+        int sub = int.Parse(System.Console.ReadLine());
+        
+        Mayank obj = new Mayank();
+        obj.Ak(base1,sub);
+        
+        System.Console.Write("This is Count of Prime : "+ Mayank.even);
+        System.Console.WriteLine("");
+        System.Console.Write("This is Count of Not Prime : "+ Mayank.odd);
+
+
+    }
+}*/
