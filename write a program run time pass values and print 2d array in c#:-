@@ -1,0 +1,42 @@
+// write a program run time pass values and print 2d array:-
+/*class TwoDArray
+{
+	static void Main(string []args)
+	{
+		System.Console.Write("enter eny size of base array ");
+		int size=System.Convert.ToInt32(System.Console.ReadLine());
+		System.Console.Write("enter eny size of sub array ");
+		int size1=System.Convert.ToInt32(System.Console.ReadLine());
+		System.Console.WriteLine("enter give  values for arrray");
+		int[,] arr= new int[size,size1];
+		int a=0,b;
+		while(a<arr.GetLength(0))
+		{
+			b=0;
+			while(b<arr.GetLength(1))
+			{
+				System.Console.Write("["+a+"]["+b+"]:");
+				arr[a,b]=System.Convert.ToInt32(System.Console.ReadLine());
+				b++;
+			}
+			System.Console.WriteLine();
+			a++;
+			// output
+		}
+		int i=0,j;
+		while(i<arr.GetLength(0))
+		{
+			j=0;
+		while(j<arr.GetLength(1))
+		{
+			System.Console.Write(" "+arr[i,j]);
+			j++;
+			
+		}
+           System.Console.WriteLine();
+			i++;
+		}
+		
+	}
+	
+}*/
