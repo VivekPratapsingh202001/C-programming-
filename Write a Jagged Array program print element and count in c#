@@ -1,0 +1,44 @@
+/*class Akshay
+{
+  static void Main ()
+  {
+    System.Console.Write ("Enter the Base Array Size :");
+    int base1 = int.Parse (System.Console.ReadLine ());
+
+//*******DECLARE THE ARRAY SIZE AND GIVE BASE ARRAY SIZE *************      
+    int[][] arr = new int[base1][];
+
+//******* ENTER THE SUB ARRAYS SIZE ********************            
+    for (int i = 0; i < base1; i++) 
+      {
+	System.Console.Write ($"Enter the {i} Sub Array Size :");
+	int sub = int.Parse (System.Console.ReadLine ());
+
+	  arr[i] = new int[sub];
+      }
+
+//******* ENTER THE DATA DIFFERNT SUB ARRAY SIZE **************                  
+    for (int i = 0; i < base1; i++)
+      {
+	for (int j = 0; j < arr[i].Length; j++)
+	  {
+	    System.Console.Write ("[" + i + " ]" + "[" + j + "] :");
+	    arr[i][j] = int.Parse (System.Console.ReadLine ());
+	  } System.Console.WriteLine ("");
+      }
+
+//***** PRINT THE ZAGGED ARRAY **********************            
+    int count=0;
+    
+    for (int i = 0; i < base1; i++)
+      {
+	for (int j = 0; j < arr[i].Length; j++)
+	  {
+	    System.Console.Write (" " + arr[i][j]);
+	    count++;
+	  } System.Console.WriteLine ("");
+	  
+      }System.Console.WriteLine ("Total Count of Zagged Array Elements : " + count);
+
+  }
+}*/
