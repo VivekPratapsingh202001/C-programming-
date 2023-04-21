@@ -1,0 +1,34 @@
+// even odd program in using method():-
+ /*class evenodd
+ {
+	 static void EvenOdd(int num)
+	 {
+		 int i,even=0,odd=0;
+		 for(i=0;i<num;i++)
+		{
+		    System.Console.Write("enter any {0}st number ",i);
+			int num1=System.Convert.ToInt32(System.Console.ReadLine());
+			if(num1%2==0)
+			{
+				even++;
+			}
+			else
+			{
+				odd++;
+			}
+			
+		}	
+			System.Console.WriteLine("even no"+even);
+			System.Console.WriteLine("odd no"+odd);		
+	 }
+	 
+	  static void Main(string []args)
+	 {
+		
+		System.Console.Write("enter any number ");
+		int num=System.Convert.ToInt32(System.Console.ReadLine());
+	 
+		EvenOdd(num);
+	 }
+ }*/
+ 
