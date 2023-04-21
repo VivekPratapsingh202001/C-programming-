@@ -1,0 +1,29 @@
+// write a 1d array program and print values using mathod():- 
+/*class SingleArray
+{
+	static void printArray(int[]arr)
+	{
+		System.Console.Write("print Array element");
+		int i=0;
+		while(i<arr.Length)
+		{
+		
+		System.Console.Write(" "+arr[i]);
+		b++;
+			i++;
+		}
+		
+	}
+	
+	static void Main(string []args)
+	{
+		
+	int[] arr={10,20,30,40,50,60,70,80};
+	int[] arr1={11,21,31,41};
+	printArray(arr);
+	System.Console.WriteLine();
+	printArray(arr1);
+	System.Console.WriteLine();
+	
+	}
+}*/
