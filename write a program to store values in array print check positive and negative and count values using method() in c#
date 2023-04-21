@@ -1,0 +1,43 @@
+//write a program to store values in array print check postive and nagative and count values usind medhod()
+/*class Demo
+{
+	static void Main()
+	{
+	System.Console.Write("enter any size of array ");
+	int size=System.Convert.ToInt32(System.Console.ReadLine());
+	int[] arr=new int[size];
+	System.Console.Write("enter any no ");
+	for(int i=0;i<size;i++)
+	{
+		arr[i]=System.Convert.ToInt32(System.Console.ReadLine());
+	}
+		
+		
+		//for(int i=0;i<size;i++)
+			//foreach(int i in arr)
+		{
+			//System.Console.Write(arr[i]+" ");	
+			//System.Console.Write(i);
+			positiveN(arr);
+		}
+	}	
+	static void positiveN(int[] arr)	
+		{
+			int countp=0,countn=0;
+			for(int i=0;i<arr.Length;i++)
+			{
+				if(arr[i]>0)
+				{
+					System.Console.WriteLine("posive no:"+arr[i]);	
+					countp++;
+				}
+				else
+				{
+					System.Console.WriteLine("nagative no:"+arr[i]);	
+					countn++;
+				}
+			}
+			System.Console.WriteLine("\nposive no: "+countp);
+			System.Console.WriteLine("\nnagative no: "+countn);
+		}
+}*/
