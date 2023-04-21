@@ -1,0 +1,44 @@
+//write a prohrm in jadded array:-
+class Demo
+{
+	static void Main()
+	{
+		System.Console.Write("enter base array size");
+		int size=System.Convert.ToInt32(System.Console.ReadLine());
+		int[][] arr=new int [size][];
+		for(int i=0;i<arr.Length;i++)
+		{
+			System.Console.Write($"enter sub{i} array size");
+			int sub=int.Parse(System.Console.ReadLine());
+			
+			arr[i]=new int[sub];
+		}
+		for(int i=0;i<arr.Length;i++)
+		{
+			for(int j=0;j<arr[i].Length;j++)
+			{
+			System.Console.Write("["+i+"]"+"["+j+"]:");
+			arr[i][j]=int.Parse(System.Console.ReadLine());
+			}
+		}
+		int count=0;
+		for(int i=0;i<arr.Length;i++)
+		{
+			for(int j=0;j<arr[i].Length;j++)
+			{
+			System.Console.Write(" "+arr[i][j]);
+			count++;
+			}
+		}
+		System.Console.WriteLine(" ");
+		System.Console.WriteLine(" "+count);
+		
+		for(int i=arr.Length-1;i>=0;i--)
+		{
+			for(int j=arr[i].Length-1;j>=0;j--)
+			{
+				System.Console.Write(" "+arr[i][j]);
+			}
+		}
+	}
+}
