@@ -1,0 +1,30 @@
+// revers number 
+/*class Demo
+{
+static void Main(string []args)
+	{
+		System.Console.Write("Enter size of any Array ");
+		int size=System.Convert.ToInt32(System.Console.ReadLine());
+		int[] arr=new int[size];
+		for(int i=0;i<arr.Length;i++)
+		{
+		arr[i]=System.Convert.ToInt32(System.Console.ReadLine());
+		}
+		System.Console.Write("print the values");
+
+		for(int j=0;j<arr.Length;j++)
+		{
+			System.Console.Write(" "+arr[j]);
+		}
+			System.Console.Write(" ");
+	
+							
+		System.Console.Write("revers no ");
+		for(int k=arr.Length-1;k>=0;k--)
+		{
+		System.Console.Write(" "+arr[k]);
+		}
+		System.Console.Write(" ");
+	}
+	
+}*/
