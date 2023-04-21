@@ -1,0 +1,24 @@
+//write a program enter any number in array nad print fact, adds,count:-
+/*
+class Demo1
+{
+	static void Main()
+	{    
+	    System.Console.Write("enter size of number ");
+		int size= System.Convert.ToInt32(System.Console.ReadLine());
+		int i=1,fact=1,adds=0,count=0;
+		while(i<=size)
+		{
+		System.Console.Write("enter any {0}st no ",i);
+		int num=System.Convert.ToInt32(System.Console.ReadLine());
+         
+		 fact=fact*num;
+		 adds=adds+num;
+         count++;
+		 i++;
+		}
+		System.Console.Write("factorial number "+fact);
+		System.Console.Write("add number "+adds);
+        System.Console.Write("add number "+count);
+	}
+}*/
