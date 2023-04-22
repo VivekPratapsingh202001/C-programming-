@@ -1,0 +1,142 @@
+// overried using properties method if we want private variable to acsess 
+/*class Address
+{
+	private int _houseNo;
+	private string _houseName;
+	private int _pinCode;
+	
+	public Address(int houseNo,string houseName, int pinCode)
+	{
+		this._houseNo=houseNo;
+		this._houseName=houseName;
+		this._pinCode=pinCode;
+	}
+	public override string ToString()
+	{
+		return this._houseNo+" "+this._houseName+" "+this._pinCode;
+	}
+}
+class Employee
+{
+	//private int _empNo;
+	//private string _empName;
+	//private Address _pincode;
+	
+	public int empNo
+	{
+		get;set;
+		
+	}
+	public string empName
+	{
+		get; set;
+	}
+	public Address empAddress
+	{
+		get; set;
+	}
+}
+	class chetu
+	{
+		static void Main()
+		{
+			Address address = new Address(505,"vivek singh",54218);
+			Employee e1=new Employee();
+			e1.empNo=101;
+			e1.empName="vivek";
+			e1.empAddress=address;
+			System.Console.WriteLine("no is"+e1.empNo);
+			System.Console.WriteLine("name is "+e1.empName);
+			System.Console.WriteLine("Address is "+e1.empAddress);
+			
+		}
+	}*/
+//Auto impimantaion properties	
+/*class vivek
+{
+	private int a=10;
+	private string name="vivek";
+	
+	public int show
+	{
+	get;set;
+	}
+	public static void Main()
+	{
+		vivek v=new vivek();
+		System.Console.WriteLine(v.a);
+		System.Console.WriteLine(v.name);
+		
+		
+	}
+}*/
+// properties method 
+/*class vivek
+{
+	private int a=10;
+	private string name="vivek";
+	
+	public int A;
+	{
+	get{return this.a;}
+	set{this.a=values;}
+	}
+	
+	public string name;
+	{
+	get{return this.Name;}
+	set{this.name=values;}
+	}
+	public static void Main()
+	{
+		vivek v=new vivek();
+		System.Console.WriteLine(v.A);
+		System.Console.WriteLine(v.Name);
+		
+		
+	}
+}*/
+	
+//
+/*class student 
+{
+	private int _studentId;
+	private string _studentName;
+	private static string _collageName="gagan";
+	
+	
+	public student (int studentId, string studentName)// string collageName)
+	{
+		this._studentId=studentId;
+		this._studentName=studentName;
+		//this._collageName=collageName;
+	}
+	public static string collageName{
+		get{
+			return _collageName;
+		}
+	}
+	public static void print()
+	{
+		
+	}
+	
+	public override string ToString()
+	{
+		return this._studentId+" "+this._studentName;//+" "+this._collageName;
+
+	}
+}
+class chetu
+	{
+		static void Main()
+		{
+			student s=new student(101,"rama");
+			student s1=new student(101,"rama");
+			System.Console.WriteLine(s);
+			System.Console.WriteLine(s1);
+			student.print();
+			
+		}
+	}
+	*/
