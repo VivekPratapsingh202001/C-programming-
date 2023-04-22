@@ -1,0 +1,25 @@
+// we call private variable to main method in oop  c#:
+/*using System;
+class Demo
+{
+	private int empNo;
+	
+	public void writeEmoNo(int eno)
+	{
+		empNo=eno;
+	}
+	public int readEmoNo()
+	{
+		return empNo;
+	}
+}
+
+class Oop
+{
+	static void Main(string [] args)
+	{
+		Demo demo=new Demo();
+		demo.writeEmoNo(100);
+		Console.Write(demo.readEmoNo());
+	}
+}`*/
