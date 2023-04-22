@@ -1,0 +1,38 @@
+// Write a program revers string and count number in array:-
+/*class SingleArray
+{
+	static void Main(string []args)
+	{
+	int[] arr={10,20,30,60,50,40};
+	
+		int f=0;
+		while(f<arr.Length)
+		{
+		System.Console.Write(" "+arr[f]);
+			f++;
+		}
+		System.Console.WriteLine();
+	
+	int i=0;
+	int j,temp=0,sum=0;
+	    while(i<arr.Length)
+		{
+			j=i+1;
+			while(j<arr.Length)
+			{
+				if(arr[i]>arr[j])
+					sum=sum+arr[i];
+				{
+					temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+				j++;
+			}
+			System.Console.Write(" "+arr[i]);
+			i++;
+		}
+		System.Console.WriteLine();
+		System.Console.WriteLine("tottle number is "+sum);
+	}
+}*/
