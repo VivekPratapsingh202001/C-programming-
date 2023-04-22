@@ -1,0 +1,19 @@
+// we call static to  static with usingthis key word:-
+/*class Opp
+{
+	private static int x=50;
+	 static void show()
+	{
+		System.Console.WriteLine("hello " +x);
+	}
+	
+	 static void  display()
+	{
+		show();
+		System.Console.WriteLine("hellooo ");
+	}
+	 static void Main()
+	{
+		Opp.display();
+	}
+}*/
