@@ -1,0 +1,33 @@
+//write a leanersearch program pass run time values:- 
+/*class LeanerSearch
+{
+	static void Main(string []args)
+	{
+		System.Console.Write("enter size of array");
+		int size=System.Convert.ToInt32(System.Console.ReadLine());
+		int[] arr=new int[size];
+		System.Console.WriteLine("enter give  values for arrray");
+		int h;
+		for(h=0;h<arr.Length;h++)
+		{
+			arr[h]=System.Convert.ToInt32(System.Console.ReadLine());
+		}
+		bool flag=false;	
+		System.Console.Write("enter search values of array ");
+		int num=System.Convert.ToInt32(System.Console.ReadLine());
+		for(int i=0;i<arr.Length;i++)
+			{
+			if(arr[i]==num)
+			{
+			flag=true;
+			System.Console.Write("number id found");
+			break;
+			}
+		}	
+		if(flag==false)
+			{
+			System.Console.Write("number is not found");
+			}
+			
+	}
+}*/
