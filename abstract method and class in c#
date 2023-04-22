@@ -1,0 +1,211 @@
+// abstract method and class 
+/*abstract class Bank
+{
+	public abstract void intrest();
+}
+
+class ICICI:Bank
+{	
+public override void intrest()
+{
+	System.Console.WriteLine("14");	
+}
+	
+}
+
+class HDFC:Bank
+{
+public override void intrest()
+{
+	System.Console.WriteLine("5");	
+}
+}
+
+class Customer
+{
+	static void Main()
+	{
+		Bank o=new ICICI();
+		o.intrest();
+		Bank b=new HDFC();
+		b.intrest();
+	}
+}*/
+// interface program in c# 
+/*interface Bank
+{
+	public abstract void intrest();
+}
+
+class ICICI:Bank
+{	
+public void intrest()
+{
+	System.Console.WriteLine("14");	
+}
+	
+}
+
+class HDFC:Bank
+{
+public void intrest()
+{
+	System.Console.WriteLine("5");	
+}
+}
+
+class Customer
+{
+	static void Main()
+	{
+		Bank o=new ICICI();
+		o.intrest();
+		Bank b=new HDFC();
+		b.intrest();
+	}
+}*/
+// sealed class it's is relationship we can only create object 
+ /*sealed class demo
+{
+	public sealed void show()
+	{
+		System.Console.WriteLine("helllo");
+	}
+}
+class Test{
+	static void Main()
+	{
+		demo d=new demo();
+		d.show();
+	}
+}
+*/
+// override pogram in c# 
+/*class vivek
+{
+	public virtual void display()
+	{
+		System.Console.WriteLine("hii");
+	}
+	
+}
+class akseh:vivek
+{
+	
+	public override void display()
+	{
+		System.Console.WriteLine("hii");
+	}
+}
+
+class demo
+{
+	static void Main()
+	{
+	vivek v=new akseh();
+	    
+		v.display();
+		
+	
+	}
+}*/
+//write a program using property method in c# 
+/*class vivek
+{
+	static string num;
+	public  string Add
+	{
+		set{num=value;}
+		get{return num;}
+	
+	}	
+}
+class Akesh
+{
+	static void Main()
+	{
+		System.Console.WriteLine("enter any no");
+		string a=(System.Console.ReadLine());
+		vivek v=new vivek();
+		v.Add=a;
+		System.Console.WriteLine(v.Add);
+	}
+}*/
+
+
+//write a program using auto impimantation properties in c# 
+/*class vivek
+{
+	//static string num;
+	public  string Add
+	{
+		set;
+		get;
+	
+	}	
+}
+class Akesh
+{
+	static void Main()
+	{
+		System.Console.WriteLine("enter any no");
+		string a=(System.Console.ReadLine());
+		vivek v=new vivek();
+		v.Add=a;
+		System.Console.WriteLine(v.Add);
+	}
+}*/
+
+// constrctor method 
+/*class Address
+{
+	int _HouseNo;
+	string _HouseName;
+	int _PinCode;
+	
+	public Address(int HouseNo, string HouseName,int PinCode)
+	{
+		_HouseNo=HouseNo;
+		_HouseName=HouseName;
+		_PinCode=PinCode;
+		System.Console.WriteLine(HouseNo+" "+HouseName+" "+PinCode);
+    }
+	public override string ToString()
+	{
+		return _HouseNo+" "+_HouseName+" "+_PinCode;
+	}
+}
+
+class Akesh
+{
+	static void Main()
+	{
+		Address A=new Address(10,"vivek",4578);
+				
+	}
+}*/
+// overloading in c# 
+class Demo
+{
+	public int Add(int a)
+	{
+		return a;
+	}
+	public int Add(int a,int b)
+	{
+		return a+b;
+	}
+	
+}
+
+class vivek
+{
+	public static void Main()
+	{
+		System.Console.WriteLine("enter any no ");
+		int a=int.Parse(System.Console.ReadLine());
+		Demo d=new Demo();
+		int x=d.Add(a,20);
+		System.Console.WriteLine(x);
+	}
+}
