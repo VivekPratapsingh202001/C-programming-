@@ -1,0 +1,484 @@
+// using property:-
+/*class Demo
+{
+	public static int number ;
+	public  int Number
+	{
+		 get { return number;}
+		set{number=value;}
+	}
+}
+	class Test
+	{
+	 static void Main(string [] args)
+		{
+		Demo demo=new Demo();
+		demo.Number=101;
+		System.Console.WriteLine(demo.Number);
+		}
+	}*/
+
+// normal method  we can acsess private non static metodh 
+/*class Test
+{
+	private  int a=10;
+	private  int  b=20;
+	public   void  sum()
+	{
+	int result=a+b;
+	System.Console.WriteLine("sum of no "+result);
+	}
+	public   void  sub()
+	{
+	int result=a-b;
+	System.Console.WriteLine("sub of no "+result);
+	}
+}
+	class Opp
+	{
+	static void Main(string [] args)
+	{
+		
+		Test test =new Test();
+		test.sum();
+		test.sub();
+		
+	}
+	
+}*/
+
+// normal method  we can acsess private static metodh 
+/*class Test
+{
+	private static  int a=10;
+	private static int  b=20;
+	public static void sum()
+	{
+	int result=a+b;
+	System.Console.WriteLine("sum of no "+result);
+	}
+	public static void  sub()
+	{
+	int result=a-b;
+	System.Console.WriteLine("sub of no "+result);
+	}
+}
+class Opp
+{
+	static void Main(string [] args)
+	{
+		Test.sum();
+		Test.sub();
+		
+	}
+}*/
+//getter and setter method using non static method add variable:-
+
+/*using System;
+class Demo
+{
+private int number;
+public int getNumber()
+{
+	return number;
+}	
+public void setNumber(int no)
+{
+	this.number=no;
+}
+}
+class Opp{
+
+static void Main(string [] args)
+	{
+		Demo demo=new Demo();
+		demo.setNumber(100);
+		System.Console.WriteLine(demo.getNumber());
+	}
+}
+*/
+// getter setter method using  program in c# 
+/*class Vivek
+{
+	 int _Id;
+	 string _Name;
+	public  void GetId(int Id)
+	{
+		_Id=Id;
+	}
+	public  int SetId()
+	{
+		return _Id;
+	}
+	public  void GetName(string Name)
+	{
+		_Name=Name;
+	}
+	public  string SetName()
+	{
+		return _Name;
+	}
+	
+}
+class Demo
+{
+	static void Main()
+	{
+ 	Vivek vivek=new Vivek();
+	vivek.GetId(10);
+	System.Console.WriteLine(""+vivek.SetId());
+	Vivek vivek1=new Vivek();
+	vivek.GetName("vivek");
+	System.Console.WriteLine(""+vivek.SetName());
+	}
+}*/
+
+
+
+// over loading 
+/*class parent
+{
+	protected  void property()
+	{
+		System.Console.WriteLine("this is parent");
+	}
+	protected virtual void marry()
+	{
+		System.Console.WriteLine("fatherr choice ");
+	}
+}
+class Child: parent
+{
+	protected  override void marry()
+	{
+		System.Console.WriteLine("this is child");
+	}
+	static void Main()
+	{
+		Child c=new Child();
+		c.marry();
+	}
+	
+}*/
+//Without Virtual and Override Keywords
+/*using System;
+class Father
+{
+public void property()
+{
+	Console.WriteLine("father property");
+}	
+}
+
+class Child :Father
+{
+	public new void property()
+	{
+		Console.WriteLine("child property ");
+	}
+}
+
+class program{
+	public static void Main()
+	{
+		Child child=new Child();
+		child.property();
+		
+	}
+}*/
+//With Virtual and Override Keywords
+/*using System;
+class Father{
+	public  virtual void property()
+	{
+	Console.WriteLine("father property ");	
+	}
+}
+
+class Child :Father
+{
+	public override void property()
+	{
+		Console.WriteLine("child property");	
+	}
+}
+class Program
+{
+ static void Main()
+{
+	Child c=new Child();
+	c.property();
+}
+}*/
+//With Base Keyword itd;s used data hidding 
+/*using System;
+class Father
+{
+	public virtual void Property()
+	{
+		Console.WriteLine("Fathet property");	
+	}
+}
+
+class Child :Father
+{
+	public override void Property()
+	{
+		base.Property();
+		Console.WriteLine("Child Property");
+	}
+}
+class program
+{
+	static void Main()
+	{
+	Child c=new Child();
+	c.Property();	
+	}
+}*/
+// normal method in property methdo :-
+/*class vivek
+{
+	private static int num;
+	public  static void show(int num)
+	{
+		vivek.num=num;
+		//System.Console.WriteLine("hello"+num+a);
+		
+	}
+	public static int display()
+	{
+		return num;
+	}
+	
+	
+
+class Demo	
+{
+static void Main()
+	{
+			
+		System.Console.WriteLine("Enter any no");
+		int num=int.Parse(System.Console.ReadLine());
+		
+		//vivek v=new vivek();
+		vivek.show(num);
+		System.Console.WriteLine(vivek.display());
+		
+		//v.show();
+		
+	}
+
+}}*/
+// gettter and setter method :-
+/*class vivek
+{
+	private  static int num;
+	public static void Getshow(int num)
+	{
+		
+		vivek.num=num;
+		System.Console.WriteLine("hello"+num);
+	}
+	
+	public static int Setshow()
+	{
+		return num;
+	}
+}
+
+class Demo
+{
+	public static void Main()
+	
+	{
+		System.Console.WriteLine("Enter any no");
+		int num=int.Parse(System.Console.ReadLine());
+		vivek.Getshow(num);
+		System.Console.WriteLine(vivek.Setshow());
+	}
+}*/
+//auto setter setter it's not compleate:-
+/*class vivek
+{
+	//private static int num;
+	public static int Num
+	{
+     get; set;		
+	}
+}
+class Demo
+{
+	public static void Main()
+	{
+		System.Console.WriteLine("enter any number ");
+		int num=int.Parse(System.Console.ReadLine());
+		//vivek v=new vivek();
+		vivek.Num=num;
+		
+		System.Console.WriteLine(num);
+	}
+}*/
+// method 
+/*class vivek
+{
+	private static int num;
+	public static int show
+	{
+     get
+	 {
+		 return num;
+	 }
+	 set
+	 {
+		 num=value;
+	 }	 
+	}
+}
+class Demo
+{
+	public static void Main()
+	{
+		System.Console.WriteLine("enter any number ");
+		int num=int.Parse(System.Console.ReadLine());
+		//vivek v=new vivek();
+		vivek.show=num;
+		System.Console.WriteLine(vivek.show);
+	}
+}*/
+//overloading in c#
+/*class vivek
+{
+	protected  virtual void show()
+	{
+		System.Console.WriteLine("hello");
+		
+	}
+}
+	class akesh:vivek
+	{
+		protected override void show()
+		{
+			base.show();
+			System.Console.WriteLine("hiii");
+		}
+	}
+
+class Demo:akesh
+{
+	public static void Main()
+	{
+		Demo d=new Demo();
+		d.show();
+	}
+}
+*/
+//override method in c#
+/*class vivek
+{
+	public  int m1(int x)
+	{
+		return x;
+	}
+	public  int m1(int x ,int y)
+	{
+		return x+y;
+	}
+	public static void Main()
+	{
+		System.Console.WriteLine("enter any number ");
+		int num=int.Parse(System.Console.ReadLine());
+		vivek v=new vivek();
+		int a=v.m1(num,50);
+		System.Console.WriteLine("hiii"+a);
+	}
+}*/
+
+
+// abstract method and class 
+/*abstract class Bank
+{
+	public abstract void intrest();
+}
+
+class ICICI:Bank
+{	
+public override void intrest()
+{
+	System.Console.WriteLine("14");	
+}
+	
+}
+
+class HDFC:Bank
+{
+public override void intrest()
+{
+	System.Console.WriteLine("5");	
+}
+}
+
+class Customer
+{
+	static void Main()
+	{
+		Bank o=new ICICI();
+		o.intrest();
+		Bank b=new HDFC();
+		b.intrest();
+	}
+}*/
+// interface program in c# 
+/*interface Bank
+{
+	public abstract void intrest();
+}
+
+class ICICI:Bank
+{	
+public void intrest()
+{
+	System.Console.WriteLine("14");	
+}
+	
+}
+
+class HDFC:Bank
+{
+public void intrest()
+{
+	System.Console.WriteLine("5");	
+}
+}
+
+class Customer
+{
+	static void Main()
+	{
+		Bank o=new ICICI();
+		o.intrest();
+		Bank b=new HDFC();
+		b.intrest();
+	}
+}*/
+// sealed class it's is relationship we can only create object 
+ /*sealed class demo
+{
+	public sealed void show()
+	{
+		System.Console.WriteLine("helllo");
+	}
+}
+class Test{
+	static void Main()
+	{
+		demo d=new demo();
+		d.show();
+	}
+}
+*/
+
+
+
+
+
