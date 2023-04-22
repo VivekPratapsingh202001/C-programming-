@@ -1,0 +1,38 @@
+//Write a ptogram print val.ues in assnding array and count values :- 
+/*class SingleArray
+{
+	static void Main(string []args)
+	{
+	int[] arr={10,20,70,60,50,40};
+	
+		int f=0;
+		while(f<arr.Length)
+		{
+		System.Console.Write(" "+arr[f]);
+			f++;
+		}
+		System.Console.WriteLine();
+	
+	int i=0;
+	int j,temp=0,sum=0;
+	    while(i<arr.Length)
+		{
+			j=i+1;
+			while(j<arr.Length)
+			{
+				sum=sum+arr[i];
+				if(arr[i]>arr[j])
+					
+				{
+					temp=arr[i];
+					arr[i]=arr[j];
+					arr[j]=temp;
+				}
+				j++;
+			}
+			System.Console.WriteLine(""+arr[i]);
+			i++;
+		}
+		System.Console.WriteLine(" "+sum);
+	}
+}*/
