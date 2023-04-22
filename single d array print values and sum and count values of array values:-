@@ -1,0 +1,22 @@
+// write a program in single d arrray print values and sum and count values of array values:-
+/*class Test
+{
+	static void Main(string [] args)
+	{
+		int []arr={1,2,3,4,5,6,7,8,9,10};
+		int i=0;
+		int sum=0;
+		int count=0;
+		while(i<arr.Length)
+		{
+			sum=sum+arr[i];
+			count++;
+			System.Console.Write(" "+arr[i]);
+			i++;
+		}
+		//return sum;
+		System.Console.WriteLine();
+		System.Console.WriteLine("sum is "+sum);
+		System.Console.WriteLine("sum is "+count);
+		}
+}*/
