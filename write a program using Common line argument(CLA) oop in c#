@@ -1,0 +1,15 @@
+// write a program using Comman line argument oop in c#
+/*using System;
+class Opp
+{
+	public static void Main(String [] args)
+	{
+		
+	   	
+		for(int i=args.Length;i>=0;i--)
+		{
+			Console.Write(" "+ args[i]);
+		
+		}
+	}	
+} */
