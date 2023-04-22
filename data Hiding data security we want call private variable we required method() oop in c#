@@ -1,0 +1,33 @@
+//data Hidding data sequrity we want call private vaiabal we requread methoda();
+//with out menthod() we cannt call private variable:- 
+ /*class Demo
+{
+	
+	private  int first=40;
+	private  int second=20;
+	
+	public void sum()
+	{
+		int result=first+second;
+		System.Console.WriteLine("sum is:"+result);
+	}
+	public void sab()
+	{
+		int result=first-second;
+		System.Console.WriteLine("sab is"+result);
+	}
+}
+
+class Opp
+{
+	 static void Main()
+	{
+		Demo demo=new Demo();
+		demo.sum();
+		demo.sab();	
+		//int r=Demo.first+Demo.second;
+		//System.Console.WriteLine(r);
+		//int p=Demo.first-Demo.second;
+		//System.Console.WriteLine(p);
+	}
+}*/
