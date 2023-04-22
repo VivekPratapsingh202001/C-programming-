@@ -1,0 +1,263 @@
+/*class Project2
+{   
+	static void Main(string [] args)
+	{
+	System.Console.WriteLine("chouse any oprator which you want to performed");
+	System.Console.WriteLine("\n1.Addition of all digit number"+"\n2.check even and odd values"+"\n3.check positive and negative values"
+	+"\n4.check prime or non prime"+"\n5.revers the values"+"\n6.Check minium and maximum values"
+	+"\n7.count all variable"+"\n8. mutiply of all number and add"+"\n9. search even odd ,count squre and que"
+	+"\n10.if you want to performed +,-,/,*,% "); 
+	int num1=System.Convert.ToInt32(System.Console.ReadLine());
+   	switch(num1)
+	{
+		case 1:
+		{
+			System.Console.WriteLine("Enter any digit which you want addition all values");
+			int num=int.Parse(System.Console.ReadLine());
+			System.Console.WriteLine("sum of all digit number");
+			int temp=num;
+			int i=0,revers=0,sum=0;
+			while(num>i)
+		{
+			revers=num%10;
+			sum=sum+revers;
+			num=num/10;
+		}
+			System.Console.WriteLine("sum of values "+sum);
+			break;
+		}
+		case 2:
+		{
+		int i,even=0,odd=0;
+		System.Console.Write("enter any size ");
+		int num=System.Convert.ToInt32(System.Console.ReadLine());
+		for(i=0;i<num;i++)
+		{
+		System.Console.Write("enter any {0}st number ",i);
+			int num0=System.Convert.ToInt32(System.Console.ReadLine());
+			if(num0%2==0)
+			{
+				even++;
+			}
+			else
+			{
+				odd++;
+			}
+			
+		}	
+			System.Console.WriteLine("even no"+even);
+			System.Console.WriteLine("odd no"+odd);	
+			break;
+		}
+		case 3:
+		{
+			int i,pos=0,neg=0;
+			System.Console.Write("enter size number ");
+			int size=System.Convert.ToInt32(System.Console.ReadLine());
+			for(i=1;i<=size;i++)
+			{
+			System.Console.Write("enter any {0}st number ",i);
+			int num=System.Convert.ToInt32(System.Console.ReadLine());
+			if(num>=0)
+			{
+				pos++;
+			}
+			else
+			{
+				neg++;
+			}
+			
+		}	
+			System.Console.WriteLine("positive no "+pos);
+			System.Console.WriteLine("negative no "+neg);		
+			break;
+		}
+		case 4:
+		{
+			int i,c=0,c1=0;
+			System.Console.Write("enter any number ");
+			int size=System.Convert.ToInt32(System.Console.ReadLine());
+			for(i=0;i<size;i++)
+			{
+			System.Console.Write("enter any {0}st number ",i);
+			int num=System.Convert.ToInt32(System.Console.ReadLine());
+		
+			int count=0;
+			for(int j=1;j<=num;j++)
+			{
+			if(num%j==0)
+			
+				count++;
+			}    
+		
+			  if(count==2)
+			{
+				c++;
+			}
+			else
+			{
+				c1++;
+			}
+			
+			}
+			System.Console.WriteLine("number is  prime "+c);
+			System.Console.WriteLine("number is not prime "+c1);
+			break;
+		}
+		case 5:
+		{
+			int rev=0;
+			System.Console.Write("enter any number ");
+			int num=System.Convert.ToInt32(System.Console.ReadLine());
+			System.Console.Write("revers number ");
+			for(int j=0;j<=num;j++)
+			{
+			rev=(num%10);
+			System.Console.Write(rev);
+			num=num/10;
+			}
+			break;
+		}
+		case 6:
+		{
+		System.Console.Write("enter size of number ");
+		int size= System.Convert.ToInt32(System.Console.ReadLine());
+		int i=1,min=0,max=0;
+		while(i<=size)
+		{
+		System.Console.Write("enter any {0}st no ",i);
+		int num=System.Convert.ToInt32(System.Console.ReadLine());
+		if(i==1)
+		{
+			min=num;
+		}
+		else if(num<min)
+		{
+			min=num;
+		}
+		else if(num>max)
+		{
+			max=num;
+		}
+		i++;
+		}
+		System.Console.WriteLine("Minimum values " +min);
+		System.Console.WriteLine("maximum values " +max);
+		break;
+		}
+		
+		case 7:
+		{
+			System.Console.Write("count of all number  ");
+			System.Console.Write("enter size of number ");
+			int size= System.Convert.ToInt32(System.Console.ReadLine());
+			int i=1,count=0;
+			while(i<=size)
+			{
+			System.Console.Write("enter any {0}st no ",i);
+			int num=System.Convert.ToInt32(System.Console.ReadLine());
+			count++;
+			i++;
+			}
+			System.Console.Write("count number "+count);
+			}
+			break;
+			
+			case 8:
+			{
+			System.Console.Write("mutiply of all number and add");
+			System.Console.Write("enter size of number ");
+			int size= System.Convert.ToInt32(System.Console.ReadLine());
+			int i=1,fact=1,adds=0;
+			while(i<=size)
+			{
+			System.Console.Write("enter any {0}st no ",i);
+			int num=System.Convert.ToInt32(System.Console.ReadLine());
+			 
+			 fact=fact*num;
+			 adds=adds+num;
+			 i++;
+			}
+			System.Console.Write("factorial number "+fact);
+			System.Console.Write("add number "+adds);
+				break;
+			}
+			
+			case 9:
+			{
+			System.Console.WriteLine("search even odd ,count squre and quea");
+			int i=0,size,even=0,odd=0,count=0,sqr=1,sqr1=1;
+			System.Console.Write("Enter size of number ");
+			size=System.Convert.ToInt32(System.Console.ReadLine());
+			while(i<size)
+			{
+			System.Console.Write("enter {0}st any no ",i);
+			int num= System.Convert.ToInt32(System.Console.ReadLine());
+			if(num%2==0)
+			{
+			even++;
+			
+			}
+			else
+			{
+				odd++;
+				
+			}
+			
+			i++;
+			}
+			count=even+odd;
+			sqr=even*even;
+			sqr1=odd*odd;
+			System.Console.WriteLine("even no"+even);
+			System.Console.WriteLine("odd no"+odd);
+			System.Console.WriteLine("count"+count);
+			System.Console.WriteLine("squre of even "+sqr);
+			System.Console.WriteLine("squre of odd "+sqr1);
+			System.Console.WriteLine("output "+even  +odd +count +sqr +sqr1);
+			break;
+			}
+			case 10:
+			{
+			System.Console.Write("chouse any oprator which you want to performed +,-,/,*,% ");
+			char oprator=char.Parse(System.Console.ReadLine());
+			System.Console.Write("enter any no ");
+			int num=System.Convert.ToInt32(System.Console.ReadLine());
+			System.Console.Write("enter any second no ");
+			int num11=System.Convert.ToInt32(System.Console.ReadLine());
+			
+			switch(oprator)
+			{
+				case '+':
+				{
+					System.Console.Write("addition values "+(num+num11));
+					break;
+				}
+				case '-':
+				{
+					System.Console.Write("subtrction values"+(num-num11));
+					break;
+				}
+				case '*':
+				{
+					System.Console.Write("addition values "+(num*num11));
+					break;
+				}
+				case '/':
+				{
+					System.Console.Write("subtrction values"+(num/num11));
+					break;
+				}
+				case '%':
+				{
+					System.Console.Write("subtrction values"+(num%num11));
+					break;
+				}
+			}	
+					break;
+				}			
+		
+	}
+	
+	}
+}*/
