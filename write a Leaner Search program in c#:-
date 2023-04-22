@@ -1,0 +1,24 @@
+// write a LeanerSearch program:-
+/*class LeanerSearch
+{
+	static void Main(string []args)
+	{
+	int[] arr={10,20,30,40,50,60};
+	bool flag=false;	
+    System.Console.Write("enter search values of array");
+    int num=System.Convert.ToInt32(System.Console.ReadLine());
+		for(int i=0;i<arr.Length;i++)
+		{
+		if(arr[i]==num)
+			{
+				flag=true;
+			System.Console.Write("number id found");
+			break;
+			}
+		}	
+		if(flag==false)
+			{
+			System.Console.Write("number is not found");
+			}
+	}
+}*/
