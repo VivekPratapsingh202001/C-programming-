@@ -1,0 +1,16 @@
+//we call non static to non static with usingthis key word:-
+/*class Opp
+{
+	//private static int x=50;
+	 public void show()
+	{
+		System.Console.WriteLine("hello " +this);
+	}
+	 
+	 static void Main()
+	{
+		Opp s=new Opp();
+		s.show();
+		System.Console.WriteLine("main methoda "+ s);
+	}
+}*/
